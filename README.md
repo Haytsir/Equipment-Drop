@@ -74,6 +74,13 @@ in CS:GO,
 * sm_equipment_drop_notify_to_all: (Def: 0)
   - 0 = Only allowed player can see notifications.
   - 1 = Every player can see notifications.
+
+## Installation
+Compile Equipment Drop.sp file, then put Equipment Drop.smx in addons/sourcemod/plugins.
+
+Put EquipmentDrop.cfg in cfg/sourcemod and equipment_drop.phrases.txt in addons/sourcemod/translations. (if you need it)
+
+(if you use Allow (or Disallow or Both) Drop Time and notifying settings, you'll need the phrases file.)
   
 ## Changelog
 #### 1.9(25/08/2017)
