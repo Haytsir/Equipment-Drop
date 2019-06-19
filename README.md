@@ -146,7 +146,7 @@ AutoExecConfig(true, "Equipment Drop"); => AutoExecConfig(true, "EquipmentDrop")
 #### 1.4 (01/21/2013)
 ```
 Tidied codes.
-New ConVar added.
+New ConVars added.
 * sm_equipment_drop_allows_knife
 * sm_equipment_drop_allows_hegrenade
 * sm_equipment_drop_allows_flashbang
