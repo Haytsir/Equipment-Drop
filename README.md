@@ -83,7 +83,7 @@ Put EquipmentDrop.cfg in cfg/sourcemod and equipment_drop.phrases.txt in addons/
 (if you use Allow (or Disallow or Both) Drop Time and notifying settings, you'll need the phrases file.)
   
 ## Changelog
-#### 1.9(25/08/2017)
+#### 1.9(11/07/2014)
 ```
 Grenade offset values are now up-to-date.
 ```
