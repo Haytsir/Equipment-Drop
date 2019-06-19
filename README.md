@@ -82,8 +82,8 @@ Put EquipmentDrop.cfg in cfg/sourcemod and equipment_drop.phrases.txt in addons/
 
 (if you use Allow (or Disallow or Both) Drop Time and notifying settings, you'll need the phrases file.)
   
-## Changelog
-#### 1.9(11/07/2014)
+## Changelog (MM/DD/YYYY)
+#### 1.9(07/11/2014)
 ```
 Grenade offset values are now up-to-date.
 ```
@@ -142,4 +142,53 @@ sm_equipment_drop_allows_decoygrenade
 AutoExecConfig(true, "Equipment Drop"); => AutoExecConfig(true, "EquipmentDrop");
 
 'Equipment Drop.cfg' couldn't be loaded.
+```
+#### 1.4 (01/21/2013)
+```
+Tidied codes.
+New ConVar added.
+* sm_equipment_drop_allows_knife
+* sm_equipment_drop_allows_hegrenade
+* sm_equipment_drop_allows_flashbang
+* sm_equipment_drop_allows_smokegrenade
+
+default values are all 1, it determine if allows dropping that kind of items or not.
+```
+#### 1.3.5 (01/06/2013)
+```
+Silenced the 'tick' sound when a player drop a item with more than 2, server-sidely.
+```
+#### 1.3b (09/08/2012)
+```
+Dropping a item is fires events now.
+```
+#### 1.3 (06/20/2012)
+```
+The tries from privious version worked very well.
+
+Did some modify codes, decided keep use this solution.
+
+The plugin now work has smoothler view model animation than other plugins those released now
+by removing flickering animation while dropping a item with more than 2
+
+fixed a bug which occurrs when a player drop a item
+which player has 2 and more of it,the items are all gone, but just 1 of it's dropped.
+```
+#### 1.1-Test (06/19/2012)
+```
+Tried another solution, by checking state with the value of m_nSequence.
+
+Expecting it solved the bug perfectly, but I'm not quite sure for that.
+```
+#### 1.0 (Initial Version) (06/19/2012)
+```
+Initial Version,
+the plugin doesn't require gamedata file includes signature and vtable data.
+
+Resolved item duplication bug by it's count.
+It was the issue when player drop a item right after throwing, it duplicated even though it's thrown away.
+
+Players cannot drop item when it's count is 0.
+So, when player has 2 of same nades, it's not gonna block the bug for now.
+also I'm working for another solution.
 ```
