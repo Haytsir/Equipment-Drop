@@ -93,7 +93,7 @@ Grenade offset values are now up-to-date.
 
 Removed unused codes.
 ```
-####1.7(03/30/2013)
+#### 1.7(03/30/2013)
 ```
 Equipment Drop support team and administrator classification from now on.
 
