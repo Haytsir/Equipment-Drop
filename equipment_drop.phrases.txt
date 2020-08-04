@@ -5,13 +5,15 @@
 		"#format"	"{1:s},{2:c}"	
 		"en"		"{1} {2}You can drop your equipments from now on!"
 		"ko"		"{1} {2}이제 장비를 버릴 수 있습니다!"
+		"ru"		"{1} {2}Вы можете выбросить своё снаряжение с этого момента!"
 	}
 
 	"You can not drop from now on"
 	{
 		"#format"	"{1:s},{2:c}"	
-		"en"		"{1} {2}You can drop your equipments from now on!"
+		"en"		"{1} {2}You can not drop your equipments from now on!"
 		"ko"		"{1} {2}이제부터는 장비를 버릴 수 없습니다!"
+		"ru"		"{1} {2}Вы не можете выбросить своё снаряжение с этого момента!"
 	}
 
 	"You can not drop yet"
@@ -19,5 +21,6 @@
 		"#format"	"{1:s},{2:c}"	
 		"en"		"{1} {2}You can not drop your equipments yet."
 		"ko"		"{1} {2}아직 장비를 버릴 수 없습니다."
+		"ru"		"{1} {2}Вы не можете выбросить своё снаряжение, пока что."
 	}
 }
